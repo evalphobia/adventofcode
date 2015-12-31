@@ -8,14 +8,6 @@ import (
 	"github.com/evalphobia/adventofcode/lib"
 )
 
-var distances map[string]map[string]int
-var cities map[string]bool
-
-func init() {
-	distances = make(map[string]map[string]int)
-	cities = make(map[string]bool)
-}
-
 func main() {
 	lib.ParseFlag()
 
